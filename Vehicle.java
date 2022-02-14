@@ -1,9 +1,3 @@
-/**
- * Course: COP 3809C
- * @author Ryan Sobolewski
- * Purpose: HW1
- */
-
 public class Vehicle {    
 	private String vehicleType;    
 	private int numberOfWheels;
@@ -21,9 +15,5 @@ public class Vehicle {
 
 	public int getNumberOfWheels(){
 	        return numberOfWheels;    
-	}
-	
-	public void move() {
-		System.out.println("Driving forward at 10 mph");
 	}
 }
